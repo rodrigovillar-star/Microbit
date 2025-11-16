@@ -1,0 +1,6 @@
+let strip = neopixel.create(DigitalPin.P1, 10, NeoPixelMode.RGB)
+strip.showRainbow(1, 360)
+strip.setPixelColor(1, neopixel.colors(NeoPixelColors.Indigo))
+strip.setPixelColor(1, neopixel.colors(NeoPixelColors.Indigo))
+strip.setPixelColor(1, neopixel.colors(NeoPixelColors.Indigo))
+strip.setPixelColor(0, neopixel.colors(NeoPixelColors.Indigo))
